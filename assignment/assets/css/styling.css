@@ -1,0 +1,178 @@
+/* CSS Rules for Lab 1 using Bootstrap.  Note, these rules are laid out mobile first.  
+	That is, the smaller screen rules are shown first
+
+    Note, that CSS rule will propoagte up to larger devices, unless you modify them with a 
+    media query and change the rule
+*/
+
+/* declare your own fonts */
+
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap
+*/
+html{
+    box-sizing: border-box;
+}
+body {
+    padding-bottom: 5px;
+    background-color: rgb(245, 164, 98);
+}
+
+.main_contents {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+nav{
+    background-color:rgb(90, 90, 90);
+}
+nav .brand-logo i{
+    margin-left:20px;
+}
+/* Buttons under navbar
+*/
+.row .col.s2 button{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(90, 90, 90,.8);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.row .col.s2 button:hover {
+    box-shadow: 0 18px 22px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.my_cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*Effects the four cards on the main page
+*/
+.my_cards .card{
+    color: darkgray;
+}
+
+.toolbar{
+    justify-content: space-evenly;
+    display: flex;
+    /*position: relative;
+    bottom: 180px;*/
+}
+/* Fixes action buttons
+*/
+.fixed-action-btn {
+    position: sticky;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.model3D  {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the transparency to bring the color forward */
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1.0);
+    padding: 2px;
+    height: 200px;
+}
+
+X3D, x3d {
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    height: 500px;
+    
+}
+/*Pushes gallery under model area
+*/
+#gallery_heading{
+    margin-top:300px;
+}
+/* Some simple CSS rules for styling p, h1 to h6, etc. in the main contents container
+*/
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif; 
+}
+
+/* Effects all screens under 576px
+*/
+@media (max-width: 576px) {
+
+    body {
+        background-color: rgb(185, 185, 178);
+    }
+    h1{
+        font-size: .8em;
+        width: 300px;
+        position: relative;
+        bottom: 20px;
+    }
+    .row .col.s2 button{
+        padding: 5px;
+        font-size: 14px;
+    }
+    .my_cards{
+        justify-content: center;
+    }
+    .my_cards *{
+        margin: 10px 10px;
+    }
+    .model .model3D x3D{
+        width: 100%;
+    }
+    #gallery_heading{
+        margin-top: 0;
+    }
+
+}
+
+@media (min-width: 576px) {
+
+    body {
+        background-color: rgb(185, 185, 178);
+    }
+    h1{
+        font-size: .8em;
+        width: 350px;
+        position: relative;
+        bottom: 20px;
+    }
+
+}
+
+
+/* Medium devices (tablets, 768px and up)
+*/
+@media (min-width: 768px) { 
+    
+
+}
+
+/* Large devices (desktops, 992px and up)
+*/
+@media (min-width: 992px) { 
+    
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)
+*/
+@media (min-width: 1200px) {   
+
+
+}
+

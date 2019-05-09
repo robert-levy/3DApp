@@ -1,0 +1,10 @@
+Hi Martin. I was unsure how you wanted us to inform you of the 'deeper understanding' we achieved so I list them here as well as partially within the app
+
+use of Materialize CSS framework. 
+Use of ProBooleans in models
+Use of modifiers such as pro optimizer, massfx rigid body, and others. 
+Use of arrays to create multiple objects along path (done with the helmet model)
+Ability to change material of models via Javascript
+Also use of a database if that comes under it
+
+public_html link: http://users.sussex.ac.uk/~rl321/3dapp/assignment/index.php

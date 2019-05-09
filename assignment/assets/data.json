@@ -1,0 +1,61 @@
+{ 
+    "pageTextData": [
+        
+        {
+			"subTitle": "Shield",		
+			"description": "The heater shield or heater-shaped shield is a form of European medieval shield, developing from the early medieval kite shield in the late 12th century as depicted in the great seal of Richard I and John. The term is a neologism, created by Victorian antiquarians due to the shape's resemblance to a clothes iron."
+		},
+		{
+			"subTitle": "Helmet",		
+			"description": "A kettle hat is a type of helmet made of steel in the shape of a brimmed hat. There are many design variations. The only common element is a wide brim that afforded extra protection to the wearer. It gained its common English language name from its resemblance to a metal cooking pot (the original meaning of kettle)."
+		},
+		{
+			"subTitle": "Mace",		
+			"description": "A mace is a blunt weapon, a type of club or virge that uses a heavy head on the end of a handle to deliver powerful blows. A mace typically consists of a strong, heavy, wooden or metal shaft, often reinforced with metal, featuring a head made of stone, bone, copper, bronze, iron, or steel."
+		},
+		{
+			"subTitle": "Sword",		
+			"description": "In the European High Middle Ages, the typical sword (sometimes academically categorized as the knightly sword, arming sword, or in full, knightly arming sword) was a straight, double-edged weapon with a single-handed, cruciform (i.e., cross-shaped) hilt and a blade length of about 70 to 80 centimetres (28 to 31 in)."
+		},
+		{
+			"x3dModelTitle": "Shield Model",	
+			"description": "Shield model description"
+		},
+		{
+			"x3dModelTitle": "Helmet Model",	
+			"description": "Helmet model description"
+		},
+        {
+			"x3dModelTitle": "Mace Model",		
+			"description": "Mace model description"
+        },
+        {
+			"x3dModelTitle": "Sword Model",		
+			"description": "Sword model description"
+        },
+		{
+			"galleryTitle": "Picture Gallery",
+			"galleryDescription": "These images were rendnered in 3ds Max 2017. Click the images inside the gallery to make them bigger. "
+        },
+        {
+            "galleryLink": "assets/images/gallery_images/image1.png"
+        },
+        {
+            "galleryLink": "assets/images/gallery_images/image2.png"
+        },
+        {
+            "galleryLink": "assets/images/gallery_images/image3.png"
+        },
+        {
+            "galleryLink": "assets/images/gallery_images/image4.png"
+        },
+        {
+            "shieldX3dLink": "models/shield.x3d",
+            "helmetX3dLink": "models/helmet.x3d",
+            "maceX3dLink": "models/mace.x3d",
+            "swordX3dLink": "models/sword.x3d"
+
+        }
+        
+	]
+}
