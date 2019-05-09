@@ -12,9 +12,9 @@
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="https://en.wikipedia.org/wiki/List_of_medieval_weapons">Wikipedia</a></li>
                   <li><a class="grey-text text-lighten-3" href="https://www.museumoflondon.org.uk/museum-london/permanent-galleries/medieval-london">Museum of London</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#">Codebase</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#">Models</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#">Model VRML exports</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/robert-levy/3DApp">Codebase</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/robert-levy/3DApp">Models</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/robert-levy/3DApp">Model VRML exports</a></li>
 
                 </ul>
               </div>
